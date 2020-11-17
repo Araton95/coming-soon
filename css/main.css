@@ -349,16 +349,14 @@ input.input100 {
 
 
 /*//////////////////////////////////////////////////////////////////
-[ Background ]*/
-.bg0 {background-color: #fff;}
 
 /*---------------------------------------------*/
 .bg-g1 {
-  background: #7918f2;
-  background: -webkit-linear-gradient(-45deg,#008bc2, #008dc4, #1e6b95);
-  background: -o-linear-gradient(-45deg,#008bc2,#008dc4, #1e6b95);
-  background: -moz-linear-gradient(-45deg,#008bc2,#008dc4, #1e6b95);
-  background: linear-gradient(-45deg,#008bc2, #008dc4, #1e6b95);
+  background: -webkit-radial-gradient(50% 50% at 50% 50%, rgba(33, 114, 229, 0.1) 0%, rgba(33, 36, 41, 0) 100%);
+  background: -o-radial-gradient(50% 50% at 50% 50%, rgba(33, 114, 229, 0.1) 0%, rgba(33, 36, 41, 0) 100%);
+  background: -moz-radial-gradient(50% 50% at 50% 50%, rgba(33, 114, 229, 0.1) 0%, rgba(33, 36, 41, 0) 100%);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(33, 114, 229, 0.1) 0%, rgba(33, 36, 41, 0) 100%);
+  background-color: rgb(21 19 15);
 }
 
 
